@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+      "baseUrl": "./",
+      "rootDir": "./",
+      "paths": { "*": ["types/*"] },
+    /* Basic Options */
+    "target": "es5",
+    "jsx": "react",
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016",
+      "es2017"
+    ],
+    "moduleResolution": "node",
+    // "noUnusedLocals": true,
+    // "pretty": true,
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true
+  },
+  "include": [
+    "src",
+    "./test"
+  ],
+  "typeRoots": [
+    "../node_modules/@types"
+  ],
+  "compileOnSave": false,
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
